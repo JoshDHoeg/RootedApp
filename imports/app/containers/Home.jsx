@@ -1,9 +1,13 @@
 import React from 'react';
+
+import Intro from './../components/Intro.jsx';
+
+
 export default class Home extends React.Component {
 render(){
   return(
      <div>
-        <h1>This for the title</h1>
+        <Intro />
      </div>
     )
   }
