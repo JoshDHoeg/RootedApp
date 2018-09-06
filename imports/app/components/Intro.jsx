@@ -1,9 +1,4 @@
 import React from 'react';
-import '../../assets/styles/_intro.css';
-// import weddings from './../../assets/images/weddings.png';
-// import concert from './../../assets/images/concert.png';
-// import spaces from './../../assets/images/spaces.png';
-// import instapro from './../../assets/images/instapro.svg';
 
 class Intro extends React.Component {
   constructor(props) {
