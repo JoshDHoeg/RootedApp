@@ -1,9 +1,16 @@
 import React from 'react';
+import {Profile} from './Profile.jsx';
+// import {todoContainer} from './../../api/profiles';
 
-class Intro extends React.Component {
-  constructor(props) {
-      super(props);
+export default class Intro extends React.Component {
+  constructor(){
+   super()
+   this.state = {
+       todo: ""
     }
+    // this.handleChange = this.handleChange.bind(this);
+    // this.handleClick = this.handleClick.bind(this);
+  }
 
     render(){
         return (
@@ -14,9 +21,10 @@ class Intro extends React.Component {
                 <a className="btn" >Start Your Project</a>
               </div>
             </div>
+
+            <Profile />
+
           </section>
         );
     }
 }
-
-export default Intro;
