@@ -7,12 +7,15 @@ import AccountsUIWrapper from './../components/AccountsUIWrapper.jsx';
 import './../../assets/styles/app.scss';
 
 
+
 export default class Home extends React.Component {
 render(){
   return(
      <div>
        <AccountsUIWrapper />
         <Intro />
+
+
      </div>
     )
   }
